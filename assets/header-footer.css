@@ -1,0 +1,44 @@
+.caixa {
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+    background-color: #b3aa39;
+    padding: 15px;
+}
+nav {
+    position: absolute;
+    top: 55px;
+    right: 25px;
+}
+nav li {
+    display: inline;
+    padding: 15px;
+    margin:auto;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+    text-decoration: dashed;
+}
+
+nav a:hover {
+    color: rgb(0, 110, 255);
+    text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    background-image: url('../../assets/imagens/bg.jpg');
+    padding: 50px 0;
+}
+
+footer p {
+    color: white;
+    font-size: 10px;
+    margin-top: 10px;
+}

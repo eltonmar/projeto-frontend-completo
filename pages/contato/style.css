@@ -1,0 +1,58 @@
+main {
+    width: 1024px;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+form {
+    margin: 20px 20px;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 15px;
+    margin: 5px 0 10px;
+}
+.form-group {
+    display: block;
+    margin: 10px 10px 10px;
+    padding: 15px 10px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.Enviar {
+    width: 400px;
+    padding: 15px 15px 15px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.Enviar:hover {
+    background-color: darkorange;
+    transform: scale(1.15);
+}
+
+table {
+    margin: 10px 20px 10px;
+
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}

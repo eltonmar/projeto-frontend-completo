@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../../assets/header-footer.css">
+    <link rel="stylesheet" href="../../assets/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pessoal</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="caixa"><h1><img src="../../assets/imagens/van-gogh.logo.png" alt="logo do site"></h1>
+            <nav>
+                <ul>
+                    <li><a href="../inicio/index.html">Início</a></li>
+                    <li><a href="../livros/livros.html">Livros</a></li>
+                    <li><a href="../basquete/basquete.html">Basquete</a></li>
+                    <li><a href="../estudos/estudos.html">Estudos</a></li>
+                    <li><a href="../contato/contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form>
+
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required placeholder="seuemail@dominio.com">
+
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone" required placeholder="(DDD)XXXXX-XXXX">
+
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="70" rows="10" required></textarea>
+
+            <fieldset>
+                <legend>Melhor Forma para entrar em contato: </legend>
+                <label for="radio-email"><input type="radio" name="contato" id="email">Email</label>
+                <label for="radio-zap"><input type="radio" name="contato" id="zap" checked>WhatsApp</label>
+                <label for="radio-telefone"><input type="radio" name="contato" id="telefone">Telefone</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual horário está disponível ?</legend>
+                <select name="horario" id="horario">
+                    <option value="Manhã">Manhã</option>
+                    <option value="Tarde">Tarde</option>
+                    <option value="Noite">Noite</option>
+                </select>
+
+            </fieldset>
+
+            <label for="checkbox" class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades
+                por e-mail.</label>
+            <input type="submit" class='Enviar' value="Enviar Formulário">
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                <tr>
+                    <td colspan="5">Rio de Janeiro</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+
+    <footer>
+        <img src="../../assets/imagens/logo-footer.png" alt="logo-do-footer">
+        <p>&copy; EltonMarinho</p>
+    </footer>
+</body>
+
+</html>
