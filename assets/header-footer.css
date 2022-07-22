@@ -37,6 +37,10 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.gogh {
+    position: relative;
+}
+
 /* FOOTER */
 
 footer {
@@ -51,4 +55,33 @@ footer p {
     color: white;
     font-size: 10px;
     margin-top: 10px;
+    padding: 10px 0;
+}
+
+@media screen and (min-width: 0) {
+    .caixa {
+        justify-content: center;
+        padding: 0 1rem;
+
+    }
+}
+
+@media screen and (min-width: 460px) {
+    .caixa {
+        justify-content: space-between;
+        padding: 0 5rem;
+
+    }
+}
+
+@media screen and (min-width: 0){
+    .footer {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 460px){
+    .footer {
+        display: block;
+    }
 }
