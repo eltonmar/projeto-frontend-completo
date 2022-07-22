@@ -4,16 +4,22 @@
     margin: 0 auto;
     background-color: #b3aa39;
     padding: 15px;
+    font-family: 'Italiana', serif;
+    font-family: 'Shadows Into Light', cursive;
 }
 nav {
     position: absolute;
     top: 55px;
     right: 25px;
+    font-family: 'Italiana', serif;
+    font-family: 'Shadows Into Light', cursive;
 }
 nav li {
     display: inline;
     padding: 15px;
     margin:auto;
+    font-family: 'Italiana', serif;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 nav a {
@@ -22,6 +28,8 @@ nav a {
     font-weight: bolder;
     font-size: 18px;
     text-decoration: dashed;
+    font-family: 'Italiana', serif;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 nav a:hover {
@@ -35,6 +43,8 @@ footer {
     text-align: center;
     background-image: url('../../assets/imagens/bg.jpg');
     padding: 50px 0;
+    font-family: 'Italiana', serif;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 footer p {

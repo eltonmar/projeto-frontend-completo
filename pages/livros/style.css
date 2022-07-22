@@ -1,20 +1,16 @@
 
-.produtos {
+.generos {
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
 }
 
-.produtos li:hover {
-    border: 5px solid rgb(0, 110, 255);
+.generos li:hover {
+    border: 2px solid rgba(0, 0, 0, 1);
     
 }
 
-.produtos li:hover h2 {
-    font-size: 40px;
-    font-weight: bold;
-}
-.produtos li {
+.generos li {
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -24,11 +20,31 @@
     box-sizing: border-box;
     border: 2px dotted #CCCCCC;
     border-radius: 50px;
+    margin-bottom: 10px;
 }
 
-.produtos h2 {
+.generos h2 {
     font-size: 30px;
     font-weight: bold;
+}
+
+.generos__botao {
+    margin-top: 10px;
+    width: 80px;
+    padding: 5px 5px 5px;
+    background-color: rgb(128, 161, 163);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.generos__botao:hover {
+    background-color: darkorange;
+    transform: scale(1.10);
 }
 
 .descrição {
