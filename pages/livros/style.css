@@ -5,12 +5,7 @@
     padding: 50px 0;
 }
 
-.generos li:hover {
-    border: 2px solid rgba(0, 0, 0, 1);
-    
-}
-
-.generos li {
+.generos-li {
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -21,6 +16,11 @@
     border: 2px dotted #CCCCCC;
     border-radius: 50px;
     margin-bottom: 10px;
+}
+
+.generos-li:hover {
+    border: 2px solid rgba(0, 0, 0, 1);
+    
 }
 
 .generos h2 {
