@@ -43,7 +43,7 @@ nav a:hover {
 
 /* FOOTER */
 
-footer {
+.rodape {
     text-align: center;
     background-image: url('../../assets/imagens/bg.jpg');
     padding: 50px 0;
@@ -51,12 +51,14 @@ footer {
     font-family: 'Shadows Into Light', cursive;
 }
 
-footer p {
+.rodape p {
     color: white;
-    font-size: 10px;
-    margin-top: 10px;
+    font-size: 20px;
+    margin-top: 8px;
     padding: 10px 0;
 }
+
+/* media query */
 
 @media screen and (min-width: 0) {
     .caixa {
@@ -64,10 +66,14 @@ footer p {
         padding: 0 1rem;
 
     }
+    nav {
+        flex-direction: column;
+    }
 }
 
 @media screen and (min-width: 460px) {
     .caixa {
+        flex-direction: column;
         justify-content: space-between;
         padding: 0 5rem;
 
